@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Judson:wght@700&display=swap');
+/* font-family: 'Jost', sans-serif; */
+/* font-family: 'Judson', serif; */
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/******************** Default Styles *************************************/
+
+.Center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Column{
+  flex-direction: column;
+}
+
+.Row{
+  flex-direction: row;
+}
+
+/*********************************************************************/
+p{
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+}
+
+select{
+  background-color: #F0F0F0;
+  color: #575757;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  padding: 6px 10px;
+}
+
+input{
+  padding: 4px 10px;
+  font-size: 20px;
+  width: 50%;
+  margin-left: 10px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  border-radius: 5px;
+  border: solid thin;
+}
+
+.Hero{
+  background-color: #6AA2D6;
+  color: white;
+}
+
+.Header h1{
+  font-family: 'Judson', serif;
+}
+
+.Header p{
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+}
+
+.Header{
+  width: 100%;
+  padding: 30px 0px 80px 0px;
+}
+
+#Measurements{
+  margin-bottom: 20px;
+}
+
+.Input_Container{
+  margin: 10px 0px;
+}
+
+#switch{
+  background-image: url(./assets/);
+}
+
+.Inputs{
+  margin-bottom: 80px;
+}
+
+#display{
+  color: #8ED463;
+  margin-bottom: 80px;
+  font-size: 22px;
+}
+
+@media all and (min-width: 500px) {
+  #Measurements{
+    width: 300px;
+    font-size: 25px;
+  }
+
+  .Inputs select{
+    width: 120px;
+    font-size: 25px;
+  }
+
+  .Inputs input{
+    width: 200px;
+    font-size: 25px;
+  }
+
+  .Header h1{
+    font-size: 40px;
+  }
+  
+  .Header p{
+    font-size: 18px;
+  }
+}
