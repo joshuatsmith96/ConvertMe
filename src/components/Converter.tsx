@@ -9,7 +9,7 @@ function Converter() {
                 <option value="weight">Weight</option>
                 <option value="time">Time</option>
             </select>
-            <div className="Inputs Center Column">
+            <div className="Inputs Center">
                 <div className="Input_Container Center Row">
                     <select id="unit_picker_1">
                         <option value="" disabled selected>Unit</option>

@@ -86,6 +86,7 @@ input{
 
 .Inputs{
   margin-bottom: 80px;
+  flex-direction: column;
 }
 
 #display{
@@ -97,17 +98,20 @@ input{
 @media all and (min-width: 500px) {
   #Measurements{
     width: 300px;
-    font-size: 25px;
+    font-size: 22px;
+    padding: 10px 15px;
   }
 
   .Inputs select{
     width: 120px;
-    font-size: 25px;
+    font-size: 22px;
+    padding: 10px 15px;
   }
 
   .Inputs input{
     width: 200px;
-    font-size: 25px;
+    font-size: 22px;
+    padding: 6px 10px;
   }
 
   .Header h1{
@@ -116,5 +120,77 @@ input{
   
   .Header p{
     font-size: 18px;
+  }
+}
+
+@media all and (min-width: 700px) {
+  #Measurements{
+    width: 400px;
+    padding: 10px 15px;
+  }
+
+  .Inputs select{
+    width: 140px;
+    padding: 10px 15px;
+  }
+
+  .Inputs input{
+    width: 300px;
+    padding: 6px 10px;
+  }
+
+  .Header h1{
+    font-size: 50px;
+  }
+  
+  .Header p{
+    font-size: 22px;
+  }
+
+  #display{
+    font-size: 26px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  #Measurements{
+    width: 500px;
+    font-size: 26px;
+    padding: 10px 15px;
+  }
+
+  .Inputs select{
+    width: 160px;
+    font-size: 26px;
+    padding: 10px 15px;
+  }
+
+  .Inputs input{
+    width: 350px;
+    font-size: 25px;
+    padding: 6px 10px;
+  }
+
+  .Header h1{
+    font-size: 50px;
+  }
+  
+  .Header p{
+    font-size: 22px;
+  }
+
+  #display{
+    font-size: 26px;
+  }
+}
+
+@media all and (min-width: 1250px){
+  #Measurements{
+    margin-bottom: 50px;
+  }
+
+  .Inputs{
+    flex-direction: row;
+    gap: 20px;
   }
 }

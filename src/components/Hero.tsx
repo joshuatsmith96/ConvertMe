@@ -1,4 +1,4 @@
-import Converter from './Coverter'
+import Converter from './Converter'
 
 function Hero() {
     return (
